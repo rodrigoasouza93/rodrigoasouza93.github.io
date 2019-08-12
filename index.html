@@ -1,44 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang=pt>
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   <title>Rodrigo Souza</title>
 </head>
 
-<body>
+<body class="">
   <header>
-    <nav>
-      <div>
-        <a href="#">RODRIGO SOUZA</a>
-      </div>
-      <div>
-        <ul>
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Sobre mim</a></li>
-          <li><a href="#">Experiências</a></li>
-          <li><a href="#">Formação acadêmica</a></li>
-          <li><a href="#">Habilidades</a></li>
-          <li><a href="#">Citação</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">RODRIGO SOUZA</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#home">Início <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#aboutMe">Sobre mim</a>
+          <a class="nav-item nav-link" href="#">Experiências</a>
+          <a class="nav-item nav-link" href="#">Sobre mim</a>
+          <a class="nav-item nav-link" href="#">Formação acadêmica</a>
+          <a class="nav-item nav-link" href="#">Habilidades</a>
+          <a class="nav-item nav-link" href="#">Citação</a>
+          <a class="nav-item nav-link" href="#">Contato</a>
+        </div>
       </div>
     </nav>
   </header>
-  <main>
-    <section class="home">
-      <div class="home-principal">
-        <h1>Rodrigo Souza</h1>
-        <a href="#">Entre em contato</a>
+  <main class="container">
+    <section id="home">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Rodrigo Souza</h1>
+          <a href="#">Entre em contato</a>
+        </div>
       </div>
     </section>
-    <section class="aboutMe">
+    <section id="aboutMe">
       <h2>Sobre mim</h2>
       <div>
-          <p>Texto falando sobre Rodrigo Souza</p>
-          <a href="#">Entre em contato</a>
+        <p>Texto falando sobre Rodrigo Souza</p>
+        <a href="#">Entre em contato</a>
       </div>
       <div>
         <figure>
@@ -55,17 +64,21 @@
             <p>07/2019 a 08/2019</p>
             <h4>Cargo da experiência profissional 1</h4>
           </div>
-          <div><p>Resumo da experiência profissional 1</p></div>
+          <div>
+            <p>Resumo da experiência profissional 1</p>
+          </div>
         </div>
       </article>
       <article>
         <div>
-            <div>
-              <p>07/2019 a 08/2019</p>
-              <h4>Cargo da experiência profissional 2</h4>
-            </div>
-            <div><p>Resumo da experiência profissional 2</p></div>
+          <div>
+            <p>07/2019 a 08/2019</p>
+            <h4>Cargo da experiência profissional 2</h4>
           </div>
+          <div>
+            <p>Resumo da experiência profissional 2</p>
+          </div>
+        </div>
       </article>
     </section>
     <section class="academicTraining">
@@ -77,7 +90,9 @@
             <p>07/2019 a 08/2019</p>
             <h4>Nome do curso 1</h4>
           </div>
-          <div><p>Resumo do curso 1</p></div>
+          <div>
+            <p>Resumo do curso 1</p>
+          </div>
         </div>
       </article>
       <article>
@@ -86,14 +101,17 @@
             <p>07/2019 a 08/2019</p>
             <h4>Nome do curso 2</h4>
           </div>
-          <div><p>Resumo do curso 2</p></div>
+          <div>
+            <p>Resumo do curso 2</p>
+          </div>
         </div>
       </article>
     </section>
     <section class="skills">
       <h2>Habilidades</h2>
-      <p>Não importa o cargo ou o projeto, minhas habilidades dão segurança e tranquilidade ao meu trabalho. 
-        Leia abaixo para saber mais sobre minhas habilidades específicas e sinta-se à vontade para entrar em contato se quiser saber mais.
+      <p>Não importa o cargo ou o projeto, minhas habilidades dão segurança e tranquilidade ao meu trabalho.
+        Leia abaixo para saber mais sobre minhas habilidades específicas e sinta-se à vontade para entrar em contato se
+        quiser saber mais.
       </p>
       <article>
         <h3>Habilidade 1</h3>
@@ -122,9 +140,9 @@
           <input type="email" />
         </fieldset>
         <fieldset>
-            <label>E-mail: </label>
-            <input type="text" />
-          </fieldset>
+          <label>E-mail: </label>
+          <input type="text" />
+        </fieldset>
         <fieldset>
           <label>Mensagem: </label>
           <textarea></textarea>
@@ -141,6 +159,18 @@
       ©2019 by Rodrigo Souza.
     </div>
   </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
