@@ -1,3 +1,64 @@
-.main {
-  margin-top: 55px;
+body {
+  margin-top: 56px;
+}
+
+section {
+  padding: 56px 30px 30px 30px;
+  background-color: #f8f9fa;
+  margin-bottom: 50px;
+}
+
+#home {
+  padding: 0;
+}
+
+header .navbar {
+  background-color: #FFF;
+}
+
+header a{
+  color: #000;
+}
+
+header .links {
+  justify-content: flex-end;
+}
+
+.home {
+  height: 400px;
+  background-image: url('./img/card-coffee-cup-1449082.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.home h1 {
+  color: #000;
+  font-weight: bold;
+  font-size: 72px;
+}
+
+.home a {
+  color: #000;
+  font-size: 25px;
+}
+
+.aboutMe-container {
+  display: flex;
+}
+
+.aboutMe-container img {
+  width: 500px;
+  height: 500px;
 }

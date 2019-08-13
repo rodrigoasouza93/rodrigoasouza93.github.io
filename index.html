@@ -13,31 +13,30 @@
   <title>Rodrigo Souza</title>
 </head>
 
-<body class="">
+<body class="container">
   <header>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">RODRIGO SOUZA</a>
+    <nav class="navbar fixed-top navbar-expand-lg">
+      <a class="navbar-brand" href="/">RODRIGO SOUZA</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="collapse navbar-collapse links" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#home">Início <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link active" href="/">Início <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="#aboutMe">Sobre mim</a>
-          <a class="nav-item nav-link" href="#">Experiências</a>
-          <a class="nav-item nav-link" href="#">Sobre mim</a>
-          <a class="nav-item nav-link" href="#">Formação acadêmica</a>
-          <a class="nav-item nav-link" href="#">Habilidades</a>
-          <a class="nav-item nav-link" href="#">Citação</a>
-          <a class="nav-item nav-link" href="#">Contato</a>
+          <a class="nav-item nav-link" href="#experiences">Experiências</a>
+          <a class="nav-item nav-link" href="#academicTraining">Formação acadêmica</a>
+          <a class="nav-item nav-link" href="#skills">Habilidades</a>
+          <a class="nav-item nav-link" href="#quote">Citação</a>
+          <a class="nav-item nav-link" href="#contact">Contato</a>
         </div>
       </div>
     </nav>
   </header>
-  <main class="container main">
+  <main class="main">
     <section id="home">
-      <div class="jumbotron jumbotron-fluid">
+      <div class="jumbotron jumbotron-fluid home">
         <div class="container">
           <h1 class="display-4">Rodrigo Souza</h1>
           <a href="#">Entre em contato</a>
@@ -45,18 +44,23 @@
       </div>
     </section>
     <section id="aboutMe">
-      <h2>Sobre mim</h2>
-      <div>
-        <p>Texto falando sobre Rodrigo Souza</p>
-        <a href="#">Entre em contato</a>
-      </div>
-      <div>
-        <figure>
-          <img src="">
-        </figure>
+      <div class="aboutMe-container">
+        <div>
+          <h2>Sobre mim</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis, nobis suscipit a commodi saepe consequuntur placeat alias dolore dolorum sit. Recusandae sequi ipsa necessitatibus ratione quia molestias, magnam aspernatur.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis, nobis suscipit a commodi saepe consequuntur placeat alias dolore dolorum sit. Recusandae sequi ipsa necessitatibus ratione quia molestias, magnam aspernatur.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis, nobis suscipit a commodi saepe consequuntur placeat alias dolore dolorum sit. Recusandae sequi ipsa necessitatibus ratione quia molestias, magnam aspernatur.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis, nobis suscipit a commodi saepe consequuntur placeat alias dolore dolorum sit. Recusandae sequi ipsa necessitatibus ratione quia molestias, magnam aspernatur.</p>          
+          <a href="#">Entre em contato</a>
+        </div>
+        <div>
+          <figure>
+            <img src="./img/cell-phone-close-up-contemporary-905873.jpg" alt="Rodrigo Souza">
+          </figure>
+        </div>
       </div>
     </section>
-    <section class="experiences">
+    <section class="experiences" id="experiences">
       <h2>Experiências</h2>
       <p>Expriências e especialidades</p>
       <article>
@@ -82,7 +86,7 @@
         </div>
       </article>
     </section>
-    <section class="academicTraining">
+    <section class="academicTraining" id="academicTraining">
       <h2>Formação acadêmica</h2>
       <p>Aprendendo e vivendo</p>
       <article>
@@ -108,7 +112,7 @@
         </div>
       </article>
     </section>
-    <section class="skills">
+    <section id="skills">
       <h2>Habilidades</h2>
       <p>Não importa o cargo ou o projeto, minhas habilidades dão segurança e tranquilidade ao meu trabalho.
         Leia abaixo para saber mais sobre minhas habilidades específicas e sinta-se à vontade para entrar em contato se
@@ -123,13 +127,13 @@
         <p>Texto explicando a habilidade 2</p>
       </article>
     </section>
-    <section class="quote">
+    <section id="quote">
       <h2>Citação</h2>
       <blockquote cite="#">
         Texto falando sobre Rodrigo Souza
       </blockquote>
     </section>
-    <section class="contact">
+    <section id="contact">
       <h2>Contato</h2>
       <form>
         <fieldset>
