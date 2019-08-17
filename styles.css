@@ -1,5 +1,6 @@
 body {
-  margin-top: 56px;
+  margin: 0px 0px 0px 0px; 
+  position: relative;
 }
 
 section {
@@ -8,12 +9,18 @@ section {
   margin-bottom: 50px;
 }
 
+h2 {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
 #home {
   padding: 0;
 }
 
 header .navbar {
-  background-color: #FFF;
+  box-shadow: 0 1px rgba(0, 0, 0, 0.2)
 }
 
 header a{
@@ -49,16 +56,64 @@ header .links {
   font-size: 72px;
 }
 
-.home a {
+.home .container a {
   color: #000;
   font-size: 25px;
 }
 
 .aboutMe-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
-.aboutMe-container img {
-  width: 500px;
-  height: 500px;
+.aboutMe-text {
+  max-width: 450px;;
+}
+
+.aboutMe-text a{
+  display: block;
+  color: #000;
+  font-size: 25px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.aboutMe-image {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.aboutMe-image img {
+  height: 450px;
+}
+
+
+.experiences-article {
+  display: flex
+}
+
+.footer {
+  margin-bottom: -80px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+  position: absolute;
+  height: 70px;
+  background-color: #212529;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-copy {
+  display: flex;
+  align-items: center;
+  color: #FFF;
+}
+
+.footer-sociais {
+  display: flex;
+  align-items: center;
+  color: #FFF;
 }

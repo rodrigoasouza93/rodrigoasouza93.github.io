@@ -8,14 +8,15 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="styles.css">
 
   <title>Rodrigo Souza</title>
 </head>
 
-<body class="container">
+<body>
   <header>
-    <nav class="navbar fixed-top navbar-expand-lg">
+    <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-lg">
       <a class="navbar-brand" href="/">RODRIGO SOUZA</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +24,7 @@
       </button>
       <div class="collapse navbar-collapse links" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="/">Início <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link active" href="#home">Início <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="#aboutMe">Sobre mim</a>
           <a class="nav-item nav-link" href="#experiences">Experiências</a>
           <a class="nav-item nav-link" href="#academicTraining">Formação acadêmica</a>
@@ -34,7 +35,7 @@
       </div>
     </nav>
   </header>
-  <main class="main">
+  <main class="container main">
     <section id="home">
       <div class="jumbotron jumbotron-fluid home">
         <div class="container">
@@ -45,17 +46,25 @@
     </section>
     <section id="aboutMe">
       <div class="aboutMe-container">
-        <div>
+        <div class="aboutMe-text">
           <h2>Sobre mim</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis, nobis suscipit a commodi saepe consequuntur placeat alias dolore dolorum sit. Recusandae sequi ipsa necessitatibus ratione quia molestias, magnam aspernatur.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis, nobis suscipit a commodi saepe consequuntur placeat alias dolore dolorum sit. Recusandae sequi ipsa necessitatibus ratione quia molestias, magnam aspernatur.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis, nobis suscipit a commodi saepe consequuntur placeat alias dolore dolorum sit. Recusandae sequi ipsa necessitatibus ratione quia molestias, magnam aspernatur.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis, nobis suscipit a commodi saepe consequuntur placeat alias dolore dolorum sit. Recusandae sequi ipsa necessitatibus ratione quia molestias, magnam aspernatur.</p>          
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis, nobis suscipit a commodi saepe
+            consequuntur placeat alias dolore dolorum sit. Recusandae sequi ipsa necessitatibus ratione quia molestias,
+            magnam aspernatur.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis, nobis suscipit a commodi saepe
+            consequuntur placeat alias dolore dolorum sit. Recusandae sequi ipsa necessitatibus ratione quia molestias,
+            magnam aspernatur.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis, nobis suscipit a commodi saepe
+            consequuntur placeat alias dolore dolorum sit. Recusandae sequi ipsa necessitatibus ratione quia molestias,
+            magnam aspernatur.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis, nobis suscipit a commodi saepe
+            consequuntur placeat alias dolore dolorum sit. Recusandae sequi ipsa necessitatibus ratione quia molestias,
+            magnam aspernatur.</p>
           <a href="#">Entre em contato</a>
         </div>
-        <div>
+        <div class="aboutMe-image">
           <figure>
-            <img src="./img/cell-phone-close-up-contemporary-905873.jpg" alt="Rodrigo Souza">
+            <img src="./img/cell-phone-close-up-contemporary-905873.jpg" class="img-fluid" alt="Rodrigo Souza">
           </figure>
         </div>
       </div>
@@ -64,10 +73,10 @@
       <h2>Experiências</h2>
       <p>Expriências e especialidades</p>
       <article>
-        <div>
+        <div class="experiences-article">
           <div>
             <p>07/2019 a 08/2019</p>
-            <h4>Cargo da experiência profissional 1</h4>
+            <p>Cargo da experiência profissional 1</p>
           </div>
           <div>
             <p>Resumo da experiência profissional 1</p>
@@ -75,13 +84,24 @@
         </div>
       </article>
       <article>
-        <div>
+        <div class="experiences-article">
           <div>
             <p>07/2019 a 08/2019</p>
-            <h4>Cargo da experiência profissional 2</h4>
+            <p>Cargo da experiência profissional 1</p>
           </div>
           <div>
-            <p>Resumo da experiência profissional 2</p>
+            <p>Resumo da experiência profissional 1</p>
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="experiences-article">
+          <div>
+            <p>07/2019 a 08/2019</p>
+            <p>Cargo da experiência profissional 1</p>
+          </div>
+          <div>
+            <p>Resumo da experiência profissional 1</p>
           </div>
         </div>
       </article>
@@ -90,24 +110,24 @@
       <h2>Formação acadêmica</h2>
       <p>Aprendendo e vivendo</p>
       <article>
-        <div>
+        <div class="experiences-article">
           <div>
             <p>07/2019 a 08/2019</p>
-            <h4>Nome do curso 1</h4>
+            <p>Cargo da experiência profissional 1</p>
           </div>
           <div>
-            <p>Resumo do curso 1</p>
+            <p>Resumo da experiência profissional 1</p>
           </div>
         </div>
       </article>
       <article>
-        <div>
+        <div class="experiences-article">
           <div>
             <p>07/2019 a 08/2019</p>
-            <h4>Nome do curso 2</h4>
+            <p>Cargo da experiência profissional 1</p>
           </div>
           <div>
-            <p>Resumo do curso 2</p>
+            <p>Resumo da experiência profissional 1</p>
           </div>
         </div>
       </article>
@@ -136,32 +156,37 @@
     <section id="contact">
       <h2>Contato</h2>
       <form>
-        <fieldset>
-          <label>Nome: </label>
-          <input type="text" />
-        </fieldset>
-        <fieldset>
-          <label>E-mail: </label>
-          <input type="email" />
-        </fieldset>
-        <fieldset>
-          <label>E-mail: </label>
-          <input type="text" />
-        </fieldset>
-        <fieldset>
-          <label>Mensagem: </label>
-          <textarea></textarea>
-        </fieldset>
-        <button type="submit">Enviar</button>
+        <div class="form-group">
+          <label for="nome">Nome completo</label>
+          <input type="text" class="form-control" id="nome" aria-describedby="nomeHelp" placeholder="João da Silva">
+          <small id="nomeHelp" class="form-text text-muted">Seu nome não será divulgado.</small>
+        </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="E-mail">
+          <small id="emailHelp" class="form-text text-muted">Seu e-mail não será divulgado.</small>
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Digite a sua mensagem</label>
+          <textarea class="form-control" id="mensagem" rows="5"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
       </form>
     </section>
   </main>
-  <footer>
-    <div>
-      Redes Sociais
-    </div>
-    <div>
+  <footer class="footer">
+    <div class="footer-copy">
       ©2019 by Rodrigo Souza.
+    </div>
+    <div class="footer-sociais">
+      <ul class="nav">
+        <li><a href="https://www.facebook.com/rodrigo.souza.501151" class="item-rede-social" target="_blank"><img
+              src="img/facebook.png"></a></li>
+        <li><a href="https://twitter.com/RodriigoASouza" class="item-rede-social" target="_blank"><img
+              src="img/twitter.png"></a></li>
+        <li><a href="https://www.instagram.com/rodrigoassouza" class="item-rede-social" target="_blank"><img
+              src="img/instagram.png"></a></li>
+      </ul>
     </div>
   </footer>
 
