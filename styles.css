@@ -103,7 +103,7 @@ header .links {
   background-color: #212529;
 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .footer-copy {
